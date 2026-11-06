@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+            # = id
+            . = class
+            : = pseudoclass
+            :: = pseudoelement
+            > = filho
+
+        */
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+        a:active {
+            color: yellow;
+        }
+        .especial{
+            background-color: rgb(233, 98, 98);
+        }
+        .especial::before{
+            content: '→ ';
+        }
+
+        .especial::after {
+            content: '←';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/FelipeMNV" target="_blank" class="especial">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/felipe-vieira-578311242/" target="_blank">Linkedin</a></li>
+        <li><a href="https://github.com/FelipeMNV/madr-api" target="_blank">Madr</a></li>
+    </ul>
+</body>
+</html>
