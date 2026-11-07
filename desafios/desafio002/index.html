@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cordel Moderno</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
         body {
@@ -20,9 +20,9 @@
             font-family: 'Passion One', sans-serif;
             font-variant: small-caps;
             text-align: center;
-            font-size: clamp(2.5rem, 10vw, 10rem);
-            margin-bottom: 0;
-            margin-top: 0;
+            font-size: clamp(2rem, 8vw, 10rem);
+            margin: 0;
+            overflow-wrap: break-word;
         }
         header > p {
             font-family: Arial, Helvetica, sans-serif;
@@ -53,6 +53,7 @@
             font-weight: 400;
             font-size: clamp(1rem, 3.5vw, 2.5rem);
             line-height: 1.9em;
+            overflow-wrap: break-word;
         }
         section.imagem {
             background-image: url(imagens/imagens/background001.jpg);
@@ -66,6 +67,9 @@
             display: inline-block;
             padding: 5px 5px 15px 0px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.452);
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-wrap: break-word;
         }
         section.imagem2 {
             background-image: url(imagens/imagens/background002.jpg);
@@ -78,6 +82,9 @@
             color: white;
             display: inline-block;
             padding: 5px 10px;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow-wrap: break-word;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.452);
         }
         footer {
@@ -92,13 +99,30 @@
         footer > p > a:hover {
             text-decoration: underline;
         }
-        @media (max-width: 768px) {
+        @media (max-width: 768px){
+           header {
+           padding: 40px 10px;     
+        }
+        
+        header > h1 {
+            font-size: clamp(2rem, 8vw, 4rem);
+        }
+
+        section {
+            padding: 5vh 15px;
+        }
+
+        section > p {
+            font-size: 1rem;
+            line-height: 1.9em;
+        }
+
         section.imagem,
         section.imagem2 {
             background-attachment: scroll;
         }
-
-        section.imagem {
+        
+        section.imagem{
             background-position: 65% center;
         }
     }
