@@ -22,6 +22,15 @@ Página inspirada no poema *Cordel Moderno*, de Milton Duarte.
 
 ---
 
+### 📱 Projeto Smartphone
+
+**Conceitos praticados:** iframes, imagens de fundo, espaçamentos, estilização CSS
+
+🌐 [Acessar Smartphone](https://felipemnv.github.io/HTML-CSS/desafios/desafio004/)
+
+---
+
+
 ## 🛠️ Tecnologias
 
 - HTML5
