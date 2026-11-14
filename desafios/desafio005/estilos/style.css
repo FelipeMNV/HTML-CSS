@@ -103,6 +103,11 @@ div.campo > input:focus-within {
     border: none;
 }
 
+div.campo > input::placeholder {
+    color: #242E36;
+    opacity: 1;
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
