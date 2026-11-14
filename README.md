@@ -30,6 +30,15 @@ Página inspirada no poema *Cordel Moderno*, de Milton Duarte.
 
 ---
 
+### 🔐 Projeto Login
+
+Interface de login responsiva, desenvolvida com HTML5 e CSS3, com campos de e-mail e senha e adaptação a diferentes tamanhos de tela.
+
+**Conceitos praticados:** formulários HTML, estilização de inputs, pseudo-classes, Media Queries, responsividade, posicionamento de elementos e transições CSS.
+
+🌐 [Acessar Projeto Login](https://felipemnv.github.io/HTML-CSS/desafios/desafio005/)
+
+
 
 ## 🛠️ Tecnologias
 
